@@ -1,0 +1,32 @@
+# MobStacker
+# Made by Mineconed
+
+# Language: en or da
+language: en
+
+# Name above a stack. {amount} and {type}
+name_format: "&e&l{amount}x &f{type}"
+always_show_name: true
+
+# Max mobs in one stack
+max_stack_size: 50
+
+# How far mobs look for a stack to join (blocks)
+radius: 6.0
+
+# Stack mobs that spawn for these reasons
+spawn_reasons: [SPAWNER, NATURAL, SPAWNER_EGG, CHUNK_GEN, NETHER_PORTAL, REINFORCEMENTS, SLIME_SPLIT, JOCKEY, MOUNT]
+
+# Every X seconds mobs that walk close to each other are stacked too. 0 = off
+merge_task_seconds: 10
+max_checks_per_run: 400
+
+# When a stack dies from one of these, the WHOLE stack dies and drops everything (good for mob farms)
+# Other deaths (fx a sword) only kill one mob
+kill_whole_stack_causes: [FALL, LAVA, FIRE, FIRE_TICK, DROWNING, SUFFOCATION, VOID, CONTACT, HOT_FLOOR, CRAMMING]
+
+# These are never stacked
+blacklist: [VILLAGER, WANDERING_TRADER, ENDER_DRAGON, WITHER, ELDER_GUARDIAN, WARDEN, IRON_GOLEM, SNOWMAN, SNOW_GOLEM, ALLAY, HORSE, DONKEY, MULE, LLAMA, PARROT, CAT, WOLF, OCELOT, ARMOR_STAND]
+
+# Worlds where nothing is stacked
+disabled_worlds: []

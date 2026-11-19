@@ -1,0 +1,9 @@
+# MobStacker messages (English)
+# Made by Mineconed
+prefix: "&8[&e≡&8] "
+stats: "&f{stacks} &7stacks with &f{mobs} &7mobs. That is &a{saved} &7mobs less for your server!"
+stacked: "&aAll mobs close to each other are stacked."
+no_nametag: "&cYou cannot name a stack."
+usage: "&eUse: &f/{label} stats&7, &fstackall&7, &freload"
+no_permission: "&cYou do not have permission."
+reloaded: "&aMobStacker reloaded."

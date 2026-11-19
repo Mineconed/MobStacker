@@ -1,0 +1,12 @@
+name: MobStacker
+version: ${project.version}
+main: dk.mineconed.mobstacker.MobStacker
+author: Mineconed
+api-version: 1.13
+commands:
+  mobstacker:
+    aliases: [ms]
+    usage: /mobstacker <stats|stackall|reload>
+permissions:
+  mobstacker.admin:
+    default: op

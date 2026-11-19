@@ -1,0 +1,9 @@
+# MobStacker beskeder (dansk)
+# Lavet af Mineconed
+prefix: "&8[&e≡&8] "
+stats: "&f{stacks} &7stakke med &f{mobs} &7mobs. Det er &a{saved} &7mobs mindre for din server!"
+stacked: "&aAlle mobs tæt på hinanden er stakket."
+no_nametag: "&cDu kan ikke give en stak et navn."
+usage: "&eBrug: &f/{label} stats&7, &fstackall&7, &freload"
+no_permission: "&cDu har ikke adgang."
+reloaded: "&aMobStacker genindlæst."
